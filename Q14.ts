@@ -8,5 +8,9 @@ for(let name of guestList){
     console.log(`Dear ${name} join us on dinner`)
 }
 //15: replace a guest
-guestList.splice(2,1 ['Mutahar']);
-
+let guestOut = guestList.splice(2,1,'Mutahar');
+console.log(`\n Hello Friends it is to inform you the ${guestOut} is out of city & he is not joining us tonight`)
+console.log(`\n New Guest List : ${guestList}`)
+guestList.forEach((name)=>{
+    console.log(`\n Hello ${name} join us on tonight, dinner time - 8:00 pm`)
+})
