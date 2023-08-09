@@ -1,8 +1,4 @@
-/*Guest List: If you could invite anyone, living or 
-deceased, to dinner, who would you invite? Make a list that 
-includes at least three people you’d like to invite to dinner. 
-Then use your list to print a message to each person, 
-inviting them to dinner. */
+//14: Guest List
 let guestList = ['Jawad', 'Mubashir','Shahjee'];
 for(let name of guestList){
     console.log(`Dear ${name} join us on dinner`)
@@ -39,3 +35,9 @@ guestOutFromList.forEach((guest)=>{
 for(let guest of guestList){
     console.log(`\n We are happy to invite you Mr.${guest} on Dinner tonight`);
 }
+
+guestList.splice(0,2)
+console.log(`Empty list : [${guestList}]`);
+console.log(guestList);
+
+
